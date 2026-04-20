@@ -1,0 +1,117 @@
+ body {
+     font-family: Arial;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+
+     background-image: url("back.avif");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+
+ }
+
+ h2 {
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 50px;
+ }
+
+ .login {
+     background: white;
+     padding: 20px;
+     width: 400px;
+     height: 600px;
+     border-radius: 15px;
+     text-align: center;
+     box-shadow: 15px 15px 15px black;
+ }
+
+ input {
+     width: 60%;
+     height: 20px;
+     padding: 8px;
+     margin: 8px 0;
+     border: 2px solid vlack;
+     border-radius: 5px;
+     box-shadow: 2px 2px 2px black;
+ }
+
+ input:hover {
+     border: 2px solid black;
+     box-shadow: 5px 5px px black;
+ }
+
+ button {
+     width: 60%;
+     padding: 10px;
+     background-color: red;
+     color: white;
+     border: 5px solid red;
+     border-radius: 10px;
+     margin-top: 10px;
+ }
+
+ button:hover {
+     background-color: red;
+ }
+
+ #logo {
+     text-align: center;
+     height: 10px;
+     width: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: 10px black;
+ }
+
+ #pinet {
+     height: 50px;
+     width: 50px;
+     text-align: center;
+     margin-left: 400px;
+     padding-top: 40px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ #google {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 2px solid black;
+     border-radius: 10px;
+     height: 40px;
+     width: 320px;
+     margin-left: 40px;
+     margin-right: 40px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     box-shadow: 2px 2px 2px black;
+ }
+
+ #google:hover {
+     box-shadow: 5px 5px 5px black;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+     margin-left: 2px 20px 2px 20px;
+ }
+
+ pic2 {
+     height: 20px;
+     width: 20px;
+ }
+
+ p {
+     font-size: 12px;
+ }
+
+ #specp {
+     color: rgb(213, 194, 194);
+     text-align: center;
+     margin: 10px 50px 10px 50px;
+ }
